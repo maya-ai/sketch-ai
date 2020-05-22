@@ -1,2 +1,2 @@
 # sketch-ai
-An HTML, CSS &amp; JavaScript Algorithm which produces fast copies of simple sketches. 
+An HTML, CSS &amp; JavaScript Algorithm which produces fast replications of simple sketches. 
