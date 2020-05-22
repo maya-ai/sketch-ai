@@ -11,7 +11,6 @@ var colorIndex = {
     return this.val;
   }
 }
-
 var container = document.querySelector('div#sketchpad');
 var artboard = document.querySelector('div#artboard');
 var fakeConsole = document.querySelector('div#fake-console');
@@ -20,7 +19,6 @@ function preload() {
 }
 
 function setup() {
-  
   canvas = createCanvas(50, 50);
   canvas.parent('sketchpad');
   canvas.resize(container.clientWidth, container.clientHeight);
@@ -41,7 +39,6 @@ function draw() {
 function mouseReleased() {
   if (isDrawing === true) {
     isDrawing = false;
-      
       // Add canvas images and fake console text
       const count = 8;
       const ratio = canvas.width/canvas.height;
@@ -66,7 +63,6 @@ function mouseReleased() {
 
 // Uses Array.prototype.forEach() instead of imgs.forEach()
 // for IE-compatibility
-
 function keyPressed() {
   if (key === 'r') {
     const imgs = document.querySelectorAll('img');
@@ -85,7 +81,6 @@ function keyPressed() {
 /*************************
 Event listeners
 *************************/
-
 window.onload = () => {
   document.querySelector('button#reset-button').addEventListener(
     'click',
@@ -116,7 +111,6 @@ Helper functions
 * width w and height
 * Returns false otherwise.
 */
-
 function pointIsInCanvas(x, y, w, h) {
   return x >= 0 && x <= w && y >= 0 && y <= h;
 }
@@ -129,13 +123,10 @@ to 'container'.
 @param {Number} count The number of copies of the image to be appended
 @param {Number} proportion The image's width/height ratio
 */
-
 function appendCanvasImg(container, canvasElement, count, proportion) {
   // Set width explicitly, then find height based on desired proportion
-
   const newWidth = 200;
   const newHeight = newWidth * 1/proportion;
-
   // Append imgs to a document fragment, then append that to container. For efficiency.
   const fragment = document.createDocumentFragment();
   const imageData = canvasElement.toDataURL()
