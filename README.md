@@ -13,9 +13,11 @@ Users can draw & interact with the GUI in the lower lefthand side of the web pag
 # Overpopulate your web page with virtual stick people!
 ![gif_overpopulate](https://user-images.githubusercontent.com/63478816/82721290-e1be0200-9c89-11ea-9098-7db71ebe6cde.gif)
 
-# Update 1: Sketchpad Container Size has been icnreased to 300px for better responsive control in touschreen environments. 
+# Update 1: 
+Sketchpad container size has been increased to 300px for better responsive control in touch screen environments. 
 
-# Future Updates: There is a need for adaptive CSS design styling to improve the overall web page. Future commits will address these concerns in order to help bring this desgin to tablets, phones and other devices. 
+# Future Updates: 
+There is a need for adaptive CSS design styling to improve the overall web page. Future commits will address these concerns in order to help bring this desgin to tablets, phones and other devices. 
 
 
 
