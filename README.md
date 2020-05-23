@@ -10,7 +10,7 @@ Users can draw & interact with the GUI in the lower lefthand side of the web pag
 # Maybe even play Tic Tac Toe with your friends!
 ![gif_tic-tac-toe](https://user-images.githubusercontent.com/63478816/82721143-9eaf5f00-9c88-11ea-8792-40c8ec22552c.gif)
 
-# Overpopulate your web page with a virtual population of stick figures!
+# Overpopulate your web page with virtual stick people!
 ![gif_overpopulate](https://user-images.githubusercontent.com/63478816/82721290-e1be0200-9c89-11ea-9098-7db71ebe6cde.gif)
 
 
