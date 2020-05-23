@@ -7,7 +7,7 @@ Users can draw & interact with the GUI in the lower lefthand side of the web pag
 # Or draw with love and see how it copies your characters!
 ![gif_love](https://user-images.githubusercontent.com/63478816/82720927-1cbe3680-9c86-11ea-8021-daf70affe93f.gif)
 
-# Maybe even play Tic Tac Toe with your Friends!
+# Maybe even play Tic Tac Toe with your friends!
 ![gif_tic-tac-toe](https://user-images.githubusercontent.com/63478816/82721143-9eaf5f00-9c88-11ea-8792-40c8ec22552c.gif)
 
 
